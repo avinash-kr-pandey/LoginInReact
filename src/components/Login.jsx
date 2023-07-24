@@ -31,14 +31,20 @@ const Login = () => {
     return (
         <div>
             <img className="wave" src="img/wave.png" alt="Wave" />
+          
             <div className="container">
                 <div className="img">
-                    <img src="img/bg.svg" alt="Background" />
+                {/* src="" */}
+                <img src="img/bg.svg" alt="" /> <br />
+                    
                 </div>
                 <div className="login-content">
                     <form action="index.html">
+                        
                         <img src="https://hopingminds.com/wp-content/uploads/2023/01/Asset-5.png" alt="Hoping Minds"/>
+                        <img src="img/cartoon-573.gif" alt="Background"/>
                         <h2 className="title">Welcome</h2>
+                        
                         <div className="input-div one">
                             <div className="i">
                                 <i className="fas fa-user"></i>
